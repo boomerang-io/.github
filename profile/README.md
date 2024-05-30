@@ -1,4 +1,4 @@
-## render(\<h1\>Hello, world!\<\/h1\>)
+## render(Hello, world!)
 
 Welcome to the Boomerang organization on GitHub where we love all things open source. We are a group of people who love all things automation, devops, and general software.
 
