@@ -1,6 +1,6 @@
 ## render(Hello, world!)
 
-Welcome to the Boomerang organization on GitHub where we love all things open source. We are a group of people who love all things automation, devops, and general software.
+Welcome to the Boomerang organization on GitHub where we love all things open source. We are a group of people who love all things automation, CI/CD, and general software.
 
 The initial projects were donated from IBM back when the original code owners worked at IBM.
 
