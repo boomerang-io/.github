@@ -1,21 +1,16 @@
+<!-- Canonical copy lives in boomerang-io/flow; edit there and mirror here. -->
 Closes #
 
-{{short description}}
+{{ one-paragraph description of the change and why }}
 
 #### Changelog
 
-**New**
+- {{ new / changed / removed }}
 
-- {{new thing}}
+#### Testing / reviewing
 
-**Changed**
+{{ how a reviewer can verify this — commands, screens, or the test that pins it }}
 
-- {{change thing}}
+#### AI assistance
 
-**Removed**
-
-- {{removed thing}}
-
-#### Testing / Reviewing
-
-{{ Add descriptions, steps or a checklist for how reviewers can verify this PR works or not }}
+{{ none, or which tool and for what — see CONTRIBUTING.md }}

@@ -1,33 +1,34 @@
-# Contributing Guidelines
+<!-- Canonical copy lives in boomerang-io/flow; edit there and mirror here. -->
+# Contributing to Boomerang Flow
 
-Welcome, we look forward to your contribution! The Boomerang-io projects accept contributions via issues and pull requests.
+Thanks for helping. This is the canonical contributing guide for the Boomerang projects; the copy in
+[`boomerang-io/.github`](https://github.com/boomerang-io/.github) mirrors it.
 
-Following these guidelines helps to communicate that you respect the time of the developers managing and developing this open source project and helps you finalize your pull requests to help get your contribution get accepted.
+## Issues
 
-## Issue Types
+- **Bug** or **Feature** — open one with the matching form; the form sets the issue type and adds
+  `needs-triage`. A maintainer sets the component (`frontend` / `backend`) and priority during triage.
+- **Questions and support** — [Slack](https://join.slack.com/t/boomerang-io/shared_invite/zt-pxo2yw2o-c3~6YvWkKNrKIwhIBAKhaw),
+  not the issue tracker.
+- **Security** — [private vulnerability reporting](https://github.com/boomerang-io/flow/security/advisories/new),
+  never a public issue.
 
-There are 3 types of issues that we have added to the issue templates;
+Bugs without a way to reproduce them get `needs-info` and are closed after 14 days; reopen any time with the
+missing detail.
 
-| Type                  | Purpose                                                                    |
-| --------------------- | -------------------------------------------------------------------------- |
-| Bug Report            | Create a report to help us improve if something isn't working as expected. |
-| Change or Enhancement | A change or improvement suggestion.                                        |
-| Support or Inquiry    | When help is needed or to track questions.                                 |
+## Pull requests
 
-## How to Contribute
+Link the PR to an issue (`Fixes #123`). Fork-and-PR or a branch in the repository both work. Keep the commit
+subject to 72 characters and use a conventional-commit prefix (`feat:`, `fix:`, `docs:`, …) so release notes can
+be generated. Building and running the product locally is described in the [README](README.md); the design
+records that explain *why* things are the way they are live in [`specifications/`](specifications/).
 
-Like any good development project, we use Pull Requests (PRs) to track code changes. We recommend that if you want to contrubute and implement a fix, change, or enhancement, you do so by linking the PR with an Issue.
+## AI assistance
 
-Depending on the access there are two ways to contribute
-
-1. Access to the repository with write ability to create a branch. A PR will be required to merge this branch.
-
-2. Fork the repository and create a PR to be able to link this to the parent repository and request a merge.
-
-## Commit Messages
-
-The commit message should state the change in 72 characters or less. Additionally we recommend, and require in some repositories, the usage of a commit lint and conventional commit so that we can map these to Release Notes.
+Use whatever tools you like, but the words in an issue or PR must be your own and you must be able to explain
+the change: we do not accept issues or pull requests that the author cannot discuss without an AI.
 
 ## Versioning
 
-We follow semantic versioning and some of our projects will use lerna to help ensure this is easy to manage.
+One product tag builds the whole compatible image set (plain semver on the 5.x line). See the README's
+"Packaging and releases".
